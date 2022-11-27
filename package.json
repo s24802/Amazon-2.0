@@ -1,11 +1,13 @@
 {
   "name": "with-redux-toolkit",
   "version": "1.0.0",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
+  "script": {
+    {
+      "dev": "next dev",
+       "build": "next build", 
+       "start": "next start",
+       "lint": "next lint"
+   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@reduxjs/toolkit": "^1.9.0",
